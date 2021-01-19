@@ -1,5 +1,4 @@
-{
-    "users": [
+[
         {
             "firstname": "Alexis",
             "lastname": "Yang",
@@ -42,5 +41,5 @@
             "age": "29",
             "employed": true
         }
-    ]
-}
+]
+

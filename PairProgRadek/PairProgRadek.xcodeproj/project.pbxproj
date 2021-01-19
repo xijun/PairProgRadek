@@ -21,6 +21,8 @@
 		E0760E7425B6E71500B8472A /* PairProgRadekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0760E7325B6E71500B8472A /* PairProgRadekUITests.swift */; };
 		E0760E8625B6EC4200B8472A /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E0760E8525B6EC4200B8472A /* users.json */; };
 		E0760E8B25B6ECB300B8472A /* JSONConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0760E8A25B6ECB300B8472A /* JSONConverter.swift */; };
+		E0760E9325B71B4A00B8472A /* FilterFirstnameUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0760E9225B71B4A00B8472A /* FilterFirstnameUseCase.swift */; };
+		E0760E9825B71DA300B8472A /* FilterLastnameUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0760E9725B71DA300B8472A /* FilterLastnameUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		E0760E7525B6E71500B8472A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0760E8525B6EC4200B8472A /* users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		E0760E8A25B6ECB300B8472A /* JSONConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConverter.swift; sourceTree = "<group>"; };
+		E0760E9225B71B4A00B8472A /* FilterFirstnameUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFirstnameUseCase.swift; sourceTree = "<group>"; };
+		E0760E9725B71DA300B8472A /* FilterLastnameUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterLastnameUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				E0760E8A25B6ECB300B8472A /* JSONConverter.swift */,
 				B13BFBC125B71310001885E7 /* UserListRepository.swift */,
 				B13BFBC625B713AE001885E7 /* UserResponse.swift */,
+				E0760E9225B71B4A00B8472A /* FilterFirstnameUseCase.swift */,
+				E0760E9725B71DA300B8472A /* FilterLastnameUseCase.swift */,
 			);
 			path = PairProgRadek;
 			sourceTree = "<group>";
@@ -295,8 +301,10 @@
 				E0760E4F25B6E71300B8472A /* AppDelegate.swift in Sources */,
 				E0760E5125B6E71300B8472A /* SceneDelegate.swift in Sources */,
 				B13BFBC725B713AE001885E7 /* UserResponse.swift in Sources */,
+				E0760E9825B71DA300B8472A /* FilterLastnameUseCase.swift in Sources */,
 				B13BFBC225B71310001885E7 /* UserListRepository.swift in Sources */,
 				E0760E8B25B6ECB300B8472A /* JSONConverter.swift in Sources */,
+				E0760E9325B71B4A00B8472A /* FilterFirstnameUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

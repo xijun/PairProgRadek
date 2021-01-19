@@ -9,15 +9,12 @@ import Foundation
 
 class JSONConverter {
 
-    static func jsonToDictionary() -> [[String: Any]]? {
+    static func jsonToDictionary() -> Data? {
         if let path = Bundle.main.path(forResource: "users", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
 
-                if let jsonResult = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-                    return jsonResult["users"] as? [[String: Any]]
-                }
-                return nil
+                return data
               } catch {
                    // handle error
               }
