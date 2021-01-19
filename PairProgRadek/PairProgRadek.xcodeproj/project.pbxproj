@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13BFBC225B71310001885E7 /* UserListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BFBC125B71310001885E7 /* UserListRepository.swift */; };
+		B13BFBC725B713AE001885E7 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13BFBC625B713AE001885E7 /* UserResponse.swift */; };
 		E0760E4F25B6E71300B8472A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0760E4E25B6E71300B8472A /* AppDelegate.swift */; };
 		E0760E5125B6E71300B8472A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0760E5025B6E71300B8472A /* SceneDelegate.swift */; };
 		E0760E5325B6E71300B8472A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0760E5225B6E71300B8472A /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B13BFBC125B71310001885E7 /* UserListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRepository.swift; sourceTree = "<group>"; };
+		B13BFBC625B713AE001885E7 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		E0760E4B25B6E71300B8472A /* PairProgRadek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairProgRadek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0760E4E25B6E71300B8472A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0760E5025B6E71300B8472A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				E0760E5F25B6E71500B8472A /* Info.plist */,
 				E0760E5725B6E71300B8472A /* PairProgRadek.xcdatamodeld */,
 				E0760E8A25B6ECB300B8472A /* JSONConverter.swift */,
+				B13BFBC125B71310001885E7 /* UserListRepository.swift */,
+				B13BFBC625B713AE001885E7 /* UserResponse.swift */,
 			);
 			path = PairProgRadek;
 			sourceTree = "<group>";
@@ -280,6 +286,8 @@
 				E0760E5925B6E71300B8472A /* PairProgRadek.xcdatamodeld in Sources */,
 				E0760E4F25B6E71300B8472A /* AppDelegate.swift in Sources */,
 				E0760E5125B6E71300B8472A /* SceneDelegate.swift in Sources */,
+				B13BFBC725B713AE001885E7 /* UserResponse.swift in Sources */,
+				B13BFBC225B71310001885E7 /* UserListRepository.swift in Sources */,
 				E0760E8B25B6ECB300B8472A /* JSONConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

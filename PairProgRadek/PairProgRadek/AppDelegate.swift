@@ -11,11 +11,17 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    /*
+     Data Fetch users
+     UseCase 1 : Filter users par firstname
+     UseCase 2 : Filter users by lastname
+     UseCase 3 : deletion of user
+     OPTIONAL UseCase 4 : Group Users by firtname
+     ViewModel 1: Concatenate firstname and lastname
+     */
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let json = JSONConverter.jsonToDictionary()
         return true
     }
 
