@@ -1,0 +1,46 @@
+{
+  "users": [
+     {
+       "firstname": "Alexis",
+       "lastname": "Yang",
+       "age": "26",
+       "employed": "Yes"
+     },
+     {
+         "firstname": "Hugo",
+       "lastname": "Courtecuisse",
+       "age": "29",
+       "employed": "Yes"
+     },
+     {
+         "firstname": "Romain",
+         "lastname": "Talleu",
+         "age": "34",
+         "employed": "Yes"
+     },
+     {
+         "firstname": "Julien",
+         "lastname": "Séchaud",
+         "age": "40",
+         "employed": "Yes"
+     },
+     {
+        "firstname": "Safia",
+        "lastname": "Chtmi",
+        "age": "25",
+        "employed": "Yes"
+     },
+     {
+        "firstname": "Thibault",
+        "lastname": "Le Cornec",
+        "age": "25",
+        "employed": "Yes"
+     },
+     {
+         "firstname": "Homie",
+         "lastname": "De La Street",
+         "age": "29",
+         "employed": "Non"
+     }
+  ]
+}
